@@ -60,8 +60,8 @@ class _HomePageState extends State<HomePage> {
               })),
     );
   }
-}
 
-Future<OfficeList> getQuery() {
-  return ApiModel().getData();
+  Future<OfficeList> getQuery() {
+    return ApiModel().getData();
+  }
 }
